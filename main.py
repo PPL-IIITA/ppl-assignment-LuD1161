@@ -5,7 +5,9 @@ from boys import Boys
 from utilities import test_cases
 from utilities import create_log
 
+# Generate Test Cases
 test_cases()
+
 boys = open('./boys_list.csv')
 getBoy = csv.reader(boys, delimiter=',')
 
