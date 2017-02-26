@@ -21,8 +21,8 @@ def test_cases():
                    randint(0, 100), randint(0, 100), girl_types[randint(0, 2)])]
 
     for i in range(0, 30, 1):
-        Gifts += ['Gift' + str(i), randint(0, 100), randint(0, 100),
-                  gift_types[randint(0, 2)]]
+        Gifts += [('Gift' + str(i), randint(0, 100), randint(0, 100),
+                  gift_types[randint(0, 2)])]
 
     make_csv('./boys_list.csv', Boys)
     make_csv('./girls_list.csv', Girls)
