@@ -16,7 +16,7 @@ def test_cases():
         Boys += [('Boy' + str(i), randint(0, 100), randint(0, 100),
                   randint(0, 100), randint(0, 100), boy_types[randint(0, 2)])]
 
-    for i in range(0, 10, 1):
+    for i in range(0, 21, 1):
         Girls += [('Girl' + str(i), randint(0, 100), randint(0, 100),
                    randint(0, 100), randint(0, 100), girl_types[randint(0, 2)])]
 
